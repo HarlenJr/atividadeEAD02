@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inscrição para o Evento Tech 2024</h1>
+    </header>
+    <p>
+        complete o  formulario abaixo para se inscrever no evento
+    </p>
+    <fieldset>       
+       <legend>Informaçoes pessoais</legend>
+            <label> Nome</label>
+            <input type="text" name="nome" placeholder="Texto"><br>
+                <label> Email</label>
+                 <input type="email" name="email" placeholder="Email"><br>
+                    <label>Senha</label>
+                    <input type="password" name="senha" placeholder="Senha"><br>
+                        <label>Idade</label>
+                        <input type="number" name="idade" placeholder="Idade"><br>
+                            <label> Data de Nascimento</label>
+                            <input type="date" name="data"><br>
+    </fieldset> 
+    <fieldset> 
+        <legend>Preferências do evento</legend>
+            <label>Temas de interesse</label>
+                <select>
+                    <option>Selecione</option>
+                    <option>Front-End</option>
+                    <option>Back-End</option>
+                    <option>Banco de talentos</option>
+                </select>
+                <br>
+                <label>Workshops</label>
+                <br>
+                    <input type="checkbox" name="checkbox"> Desenvolvimento Web Moderno<br>
+                    <input type="checkbox" name="checkbox"> Introdução a inteligênca artificial<br>
+                    <input type="checkbox" name="checkbox"> Segurança na internet<br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Submissão de apresentação</legend>
+        <Label>Título</Label> 
+        <input type="text" name="Título" placeholder="Texto"><br>
+            <label>Resumo</label>
+            <textarea placeholder= "Insíra seu texto" cols= "35" rows= "5"></textarea>
+            <br>
+                 <label>Anexar apresentação(PDF)</label>
+                 <input type="submit" value="Enviar arquivo"/>
+    </fieldset>
+    <input type="submit" value="Enviar inscrição">
+    <main>
+        
+</body>
+</html>
